@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Treatment Plants | 6 |
+| Waste Water Treatment Plants | 6 |
 | ZIP Codes Covered | 43 |
 | Predictive Lag Discovered | 7 – 21 days |
 | Forecast Error Reduction | ↓ 18% vs baseline |
@@ -20,7 +20,7 @@
 
 ## What This Does
 
-Predicts ZIP-code-level COVID-19 hospitalizations from SARS-CoV-2 RNA concentrations measured in wastewater — days before hospitalizations occur.
+Predicts WWTP & ZIP-code-level COVID-19 hospitalizations from SARS-CoV-2 RNA concentrations measured in wastewater — days before hospitalizations occur.
 
 **Pipeline:**
 1. Load raw RNA wastewater data from 6 treatment plants
