@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat&logo=python)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?style=flat&logo=scikit-learn)
-![Status](https://img.shields.io/badge/Status-Under%20Accepted-green?style=flat)
+![Status](https://img.shields.io/badge/Status-Accepted-green?style=flat)
 
 ---
 
