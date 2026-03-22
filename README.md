@@ -61,7 +61,8 @@ Predicts WWTP & ZIP-code-level COVID-19 hospitalizations from SARS-CoV-2 RNA con
 
 ---
 
-> Dataset is restricted and cannot be shared. Open `notebook.html` in any browser to view the full pipeline.
+> Dataset and final version of the code are restricted and cannot be shared (EHR Data)
+> Open `notebook.ipynb` to view the full pipeline.
 
 ---
 
