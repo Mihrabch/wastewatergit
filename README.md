@@ -13,7 +13,8 @@
 | Waste Water Treatment Plants | 6 |
 | ZIP Codes Covered | 43 |
 | Predictive Lag Discovered | 7 – 21 days |
-| Forecast Error Reduction | ↓ 18% vs baseline |
+| Best Model | Random Forest |
+| Forecast Accuracy | 90.80% (WWTP) and 77.27% (Zipcode) at 14-day ahead |
 | Study Region & Period | South Carolina · 2020 – 2021 |
 
 ---
@@ -24,28 +25,27 @@ Predicts WWTP & ZIP-code-level COVID-19 hospitalizations from SARS-CoV-2 RNA con
 
 **Pipeline:**
 1. Load raw RNA wastewater data from 6 treatment plants
-2. Apply spline smoothing to denoise the signal
-3. Map each treatment plant to its corresponding ZIP codes
-4. Merge with EHR hospitalization records
-5. Discover optimal lag (7–21 days) between wastewater signal and hospitalizations
-6. Train and compare ML models across lags
-7. Evaluate with weekly percentage agreement metric
+2. Using R - language, apply spline smoothing to denoise the signal
+3. Using R - language, Interpolation for missing values
+4. Using Python map each treatment plant to its corresponding ZIP codes
+5. Merge with EHR hospitalization records
+6. Discover optimal lag (7–21 days) between wastewater signal and hospitalizations
+7. Train and compare ML models across lags
+8. Evaluate with weekly percentage agreement metric
 
 ---
 
 ## Models
 
 - Random Forest Regressor
-- Gradient Boosting Regressor
 - Poisson Regression (statsmodels)
-- Voting Ensemble
 - Hyperparameter tuning via `HalvingGridSearchCV`
 
 ---
 
 ## Stack
 
-`Python` `Pandas` `NumPy` `Scikit-learn` `Statsmodels` `Matplotlib` `Seaborn`
+`Python` `Pandas` `NumPy` `Scikit-learn` `Statsmodels` `Matplotlib` `Seaborn` 
 
 ---
 
@@ -61,9 +61,9 @@ Predicts WWTP & ZIP-code-level COVID-19 hospitalizations from SARS-CoV-2 RNA con
 
 ---
 
-## View Without Running
+## Dataset is restricted and can not be shared.
 
-Open `notebook.html` directly in any browser — no Python setup needed.
+Open `notebook.html` directly in any browser — to understand.
 
 ---
 
