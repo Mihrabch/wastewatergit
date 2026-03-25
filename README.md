@@ -52,10 +52,8 @@ Predicts WWTP & ZIP-code-level COVID-19 hospitalizations from SARS-CoV-2 RNA con
 ## Repo Structure
 
 ```
-├── notebook/
-│   └── wastewater_forecasting.ipynb   # Main pipeline
+├── notebook.ipynb   # Main pipeline
 ├── data/                               # Input data (not included — proprietary EHR)
-├── notebook.html                       # Rendered notebook (no setup needed)
 └── README.md
 ```
 
