@@ -13,7 +13,7 @@ Predicts WWTP & ZIP-code-level COVID-19 hospitalizations from SARS-CoV-2 RNA was
 
 `R` `Python` `Scikit-learn` `Statsmodels` `Pandas` `Spline Smoothing` `Time-Series` `EHR Data`
 
-> Dataset is restricted and cannot be shared. Open `notebook.html` in any browser to view the full pipeline.
+> Dataset is restricted and cannot be shared. Open `notebook.py` in any browser to view the full pipeline.
 
 ---
 
