@@ -1,5 +1,6 @@
 # Wastewater-Based COVID-19 Hospitalization Forecasting
-# Accepted at Epidemics, Elsevier
+### Accepted at Epidemics, Elsevier
+[Paper Link](https://doi.org/10.1016/j.epidem.2026.100907)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat&logo=python)
 ![R](https://img.shields.io/badge/R-Spline%20Smoothing-276DC3?style=flat&logo=r)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?style=flat&logo=scikit-learn)
